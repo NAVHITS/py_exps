@@ -1,4 +1,4 @@
-i = input()
+i = int(input())
 if i % 2 == 0:
   print("Even")
 else if i % 2 != 0:
