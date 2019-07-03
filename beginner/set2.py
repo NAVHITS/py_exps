@@ -1,7 +1,7 @@
 i = input()
-if i < 0:
-  print("Invalid")
-else if i % 2 == 0:
+if i % 2 == 0:
   print("Even")
-else:
+else if i % 2 != 0:
   print("Odd")
+else if i < 0:
+  print("invalid")
