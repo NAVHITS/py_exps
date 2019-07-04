@@ -1,2 +1,2 @@
-i = map(int,input().split())
-print(pow(i[0],i[1]))
+i, j = map(int,input().split())
+print(pow(i,j))
