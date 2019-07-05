@@ -1,5 +1,5 @@
 from itertools import permutations 
-data = input()
-permlst = permutations(str) 
+data_input = input()
+permlst = permutations(data_input) 
 for perm in list(permlst):
   print (''.join(perm)) 
