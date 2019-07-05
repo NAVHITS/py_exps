@@ -1,3 +1,3 @@
-x = input().split()
-for i in x:
-    print(i.title(), end=" ")
+camel = input().split()
+for upper in camel:
+    print(upper.title(), end=" ")
