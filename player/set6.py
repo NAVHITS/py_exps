@@ -5,9 +5,9 @@ def iso(x):
       a.append(x.count(i))
   return a
 val = input().split()
-t1 = iso(val[0])
-t2 = iso(val[1])
-if sorted(t1) == sorted(t2):
+c1 = iso(val[0])
+c2 = iso(val[1])
+if sorted(c1) == sorted(c2):
   print("yes")
 else:
   print("no")
