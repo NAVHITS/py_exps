@@ -4,7 +4,7 @@ app = Flask(__name__)
 @app.route('/upload')
 def upload_file():
    return render_template('set4.html')
-@app.route('/uploader', methods = ['GET', 'POST'])
+@app.route('/file_upload', methods = ['GET', 'POST'])
 def upload_file():
    if request.method == 'POST':
       f = request.files['file']
