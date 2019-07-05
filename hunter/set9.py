@@ -1,13 +1,11 @@
-from itertools import permutations
-dem = input()
-inp = list(map(int, input().split()))
-r = 0
-c = 10000
-for i in permutations(inp, 2):
-    if sum(i) == 0:
-        j = i
-        break
-    elif 0-sum(i) < c:
-        c = 0-sum(i)
-        j = i
-print(j[0], j[1])
+dem=int(input())
+arr=list(map(int,input().split()))
+c=len(arr)
+big=max(arr)
+g,h=0,0
+for i in range(0,c-1):
+    for j in range(i+1,c):
+        if abs(arr[i]+arr[j])< big:
+            g,h=arr[i],arr[j]
+            big=abs(g+h)
+print(g,h)
