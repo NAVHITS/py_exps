@@ -1,6 +1,6 @@
 def iso(x):
   y = list(set([i for i in x]))
-  r = []
+  a = []
   for i in y:
       a.append(x.count(i))
   return a
