@@ -1,4 +1,6 @@
+#UDP server
 import socket
+
 U_PORT = 5555
 UDP_IP = "127.0.0.1"
 BUF_SIZE = 1024
